@@ -1,7 +1,5 @@
 ---
 # tasks file for nginxSites
-
-
 - name: Creates directory
   file:
      path: /etc/nginx/sites-available
@@ -10,11 +8,3 @@
   file:
      path: /etc/nginx/sites-enable
      state: directory
-
-
-
-
-
-
-
-
